@@ -24,6 +24,7 @@ class LocalBitcoin:
 
     """
     Return the information of the currently logged in user (the owner of authentication token).
+    ????what s the differenes
     """
     def getMyself(self):
         return self.sendRequest('/api/myself/', '', 'get')
